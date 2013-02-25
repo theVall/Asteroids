@@ -1,0 +1,2 @@
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/ext/load3ds/CMakeFiles/c3dsreader.dir
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/viewer.dir

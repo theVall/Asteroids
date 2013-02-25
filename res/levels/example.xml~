@@ -1,0 +1,29 @@
+<asteroids>
+    <asteroid posx="-16000" posy="-16000" posz="-16000" size="big"/>
+    <asteroid posx="-16000" posy="-16000" posz="-1000"  size="big"/>
+    <asteroid posx="-16000" posy="-16000" posz="14000"  size="big"/>
+    <asteroid posx="-16000" posy="-1000"  posz="-16000" size="big"/>
+    <asteroid posx="-16000" posy="-1000"  posz="-1000"  size="big"/>
+    <asteroid posx="-16000" posy="-1000"  posz="14000"  size="big"/>
+    <asteroid posx="-16000" posy="14000"  posz="-16000" size="big"/>
+    <asteroid posx="-16000" posy="14000"  posz="-1000"  size="big"/>
+    <asteroid posx="-16000" posy="14000"  posz="14000"  size="big"/>
+    <asteroid posx="-1000"  posy="-16000" posz="-16000" size="big"/>
+    <asteroid posx="-1000"  posy="-16000" posz="-1000"  size="big"/>
+    <asteroid posx="-1000"  posy="-16000" posz="14000"  size="big"/>
+    <asteroid posx="-1000"  posy="-1000"  posz="-16000" size="big"/>
+    <asteroid posx="-1000"  posy="-1000"  posz="-1000"  size="big"/>
+    <asteroid posx="-1000"  posy="-1000"  posz="14000"  size="big"/>
+    <asteroid posx="-1000"  posy="14000"  posz="-16000" size="big"/>
+    <asteroid posx="-1000"  posy="14000"  posz="-1000"  size="big"/>
+    <asteroid posx="-1000"  posy="14000"  posz="14000"  size="big"/>
+    <asteroid posx="14000"  posy="-16000" posz="-16000" size="big"/>
+    <asteroid posx="14000"  posy="-16000" posz="-1000"  size="big"/>
+    <asteroid posx="14000"  posy="-16000" posz="14000"  size="big"/>
+    <asteroid posx="14000"  posy="-1000"  posz="-16000" size="big"/>
+    <asteroid posx="14000"  posy="-1000"  posz="-1000"  size="big"/>
+    <asteroid posx="14000"  posy="-1000"  posz="14000"  size="big"/>
+    <asteroid posx="14000"  posy="14000"  posz="-16000" size="big"/>
+    <asteroid posx="14000"  posy="14000"  posz="-1000"  size="big"/>
+    <asteroid posx="14000"  posy="14000"  posz="14000"  size="big"/>
+</asteroids>

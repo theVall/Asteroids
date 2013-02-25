@@ -1,0 +1,106 @@
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lpthreads 
+/usr/lib64/gcc/x86_64-suse-linux/4.5/../../../../x86_64-suse-linux/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec] Fehler 1
+gmake: *** [cmTryCompileExec/fast] Fehler 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: error: ‘Q_WS_WIN’ undeclared (first use in this function)
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: Leaving directory `/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Fehler 1
+gmake: *** [cmTryCompileExec/fast] Fehler 2
+
+File /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_WIN
+  cmakeRequireSymbol(0,&Q_WS_WIN);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: error: ‘Q_WS_QWS’ undeclared (first use in this function)
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: Leaving directory `/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Fehler 1
+gmake: *** [cmTryCompileExec/fast] Fehler 2
+
+File /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_QWS
+  cmakeRequireSymbol(0,&Q_WS_QWS);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: error: ‘Q_WS_MAC’ undeclared (first use in this function)
+/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[1]: Leaving directory `/net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Fehler 2
+
+File /net/hel/export/9/student/v/vbruder/ProjectCPP/Asteroids/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_MAC
+  cmakeRequireSymbol(0,&Q_WS_MAC);
+#endif
+  return 0;
+}
+

@@ -1,0 +1,9 @@
+<asteroids>
+	<powerup posx="10000" posy="10000" posz="10000" size="small"/>
+	<powerup posx="20000" posy="200" posz="1000" size="big"/>
+	<asteroid posx="300" posy="-3000" posz="300" size="big"/>
+	<powerup posx="400" posy="300" posz="-3000" size="small"/>
+	<asteroid posx="-10000" posy="200" posz="100" size="big"/>
+	<asteroid posx="-10000" posy="200" posz="2000"/>
+    <powerup posx="10000" posy ="10000" posyz = "10000"/>
+</asteroids>
